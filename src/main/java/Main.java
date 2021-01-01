@@ -3,6 +3,8 @@ import catsanddogs.Rufus;
 import cereals.AbstractCereal;
 import cereals.CocoPuffsCereal;
 import cereals.SoggyFruitLoopsCereal;
+import videogames.HalfLife;
+import videogames.SuperMario;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,8 +12,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        catsAndDogs();
-
+        HalfLife halfLife = new HalfLife();
+        halfLife.showNumberOfWeapons();
+        SuperMario superMario = new SuperMario();
     }
 
     public static void catsAndDogs() {
